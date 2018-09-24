@@ -1,0 +1,11 @@
+{
+  "HALO_WORKER": {
+    "clients": [
+      "GEAR"
+    ],
+    "peticiones": [
+      "GEAR:fet",
+      "GEAR:fet"
+    ]
+  }
+}

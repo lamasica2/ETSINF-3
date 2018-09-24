@@ -1,0 +1,19 @@
+{
+  "HALO_WORKER": {
+    "clients": [
+      "GEAR",
+      "SKYRIM"
+    ],
+    "peticiones": [
+      "GEAR:fet"
+    ]
+  },
+  "HALO_WORKER2": {
+    "clients": [
+      "SKYRIM"
+    ],
+    "peticiones": [
+      "SKYRIM:fet"
+    ]
+  }
+}

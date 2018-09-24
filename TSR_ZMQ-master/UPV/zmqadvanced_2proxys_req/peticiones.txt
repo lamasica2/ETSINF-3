@@ -1,0 +1,8 @@
+{
+  "WORKER1": {
+    "clients": [],
+    "peticiones": [
+      "SKYRIM:DONE"
+    ]
+  }
+}

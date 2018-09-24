@@ -1,0 +1,13 @@
+{
+  "name": "upv",
+  "version": "0.0.0",
+  "description": "UPV",
+  "main": "app.js",
+  "author": {
+    "name": "thema"
+  },
+  "dependencies": {
+    "http-deceiver": "^1.2.7",
+    "zeromq": "^4.6.0"
+  }
+}

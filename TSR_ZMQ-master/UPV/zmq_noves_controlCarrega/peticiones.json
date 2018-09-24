@@ -1,0 +1,12 @@
+{
+  "WORKER3": {
+    "clients": [
+      "GEAR"
+    ],
+    "peticiones": [
+      "GEAR:Treballador3 type:B",
+      "GEAR:Treballador3 type:B type:B",
+      "GEAR:Treballador3 type:B type:B type:B"
+    ]
+  }
+}

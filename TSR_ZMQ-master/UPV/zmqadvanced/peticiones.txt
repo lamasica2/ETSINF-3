@@ -1,0 +1,38 @@
+{
+  "": {
+    "clients": [],
+    "peticiones": []
+  },
+  "WORKER2": {
+    "clients": [
+      "HALO4",
+      "HALO22"
+    ],
+    "peticiones": [
+      "HALO22:OK",
+      "HALO4:OK",
+      "HALO22:OK",
+      "HALO22:OK",
+      "HALO22:OK",
+      "HALO22:OK",
+      "HALO22:OK",
+      "HALO22:OK",
+      "HALO4:OK"
+    ]
+  },
+  "WORKER44": {
+    "clients": [
+      "HALO4",
+      "HALO22"
+    ],
+    "peticiones": [
+      "HALO4:vBEEEE",
+      "HALO4:vBEEEE",
+      "HALO4:vBEEEE",
+      "HALO4:vBEEEE",
+      "HALO4:vBEEEE",
+      "HALO4:vBEEEE",
+      "HALO22:vBEEEE"
+    ]
+  }
+}

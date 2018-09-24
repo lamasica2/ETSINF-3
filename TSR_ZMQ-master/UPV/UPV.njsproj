@@ -1,0 +1,119 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>UPV</Name>
+    <RootNamespace>UPV</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>67470809-da05-4a76-b6a9-f8aadeb6d285</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>zmqadvanced\mybroker.js</StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <StartWebBrowser>false</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="pub-sub\auxfunctions1718.js" />
+    <Compile Include="pub-sub\pub-sub_mod\auxfunctions1718.js" />
+    <Compile Include="pub-sub\publisher.js" />
+    <Compile Include="pub-sub\publisher_pv.js" />
+    <Compile Include="pub-sub\publisher_pv2.js" />
+    <Compile Include="pub-sub\subscriber.js" />
+    <Compile Include="pub-sub\subscriber_pv.js" />
+    <Compile Include="pub-sub\pub-sub_mod\publisher_stdin.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pub-sub\pub-sub_mod\subscriber_all_msg.js" />
+    <Compile Include="zmqadvanced\auxfunctions1718.js" />
+    <Compile Include="zmqadvanced\mybroker.js" />
+    <Compile Include="zmqadvanced\mybroker_vp.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zmqadvanced\myclient.js" />
+    <Compile Include="zmqadvanced\myclient_vp.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zmqadvanced\myworker.js" />
+    <Compile Include="zmqadvanced\myworker_vp.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zmqadvanced_2proxys_pub-sub\auxfunctions1718.js" />
+    <Compile Include="zmqadvanced_2proxys_pub-sub\mybroker1_vp.js" />
+    <Compile Include="zmqadvanced_2proxys_pub-sub\mybroker2_vp.js" />
+    <Compile Include="zmqadvanced_2proxys_pub-sub\myclient_vp.js" />
+    <Compile Include="zmqadvanced_2proxys_pub-sub\myworker_vp.js" />
+    <Compile Include="zmqadvanced_2proxys_req\auxfunctions1718.js" />
+    <Compile Include="zmqadvanced_2proxys_req\mybroker1_vp.js" />
+    <Compile Include="zmqadvanced_2proxys_req\mybroker2_vp.js" />
+    <Compile Include="zmqadvanced_2proxys_req\myclient_vp.js" />
+    <Compile Include="zmqadvanced_2proxys_req\myworker_vp.js" />
+    <Compile Include="zmqadvanced_control_time\auxfunctions1718.js" />
+    <Compile Include="zmqadvanced_control_time\mybroker_vp.js" />
+    <Compile Include="zmqadvanced_control_time\myclient_vp.js" />
+    <Compile Include="zmqadvanced_control_time\myworker_vp.js" />
+    <Compile Include="zmq_complete\client_vp.js" />
+    <Compile Include="zmq_complete\lbworker.js" />
+    <Compile Include="zmq_complete\libbrokerIvanFonsi.js" />
+    <Compile Include="zmq_noves_batecs2\auxfunctions1718.js" />
+    <Compile Include="zmq_noves_batecs2\mybroker_controlBatecs.js" />
+    <Compile Include="zmq_noves_batecs2\myclientA_vp.js" />
+    <Compile Include="zmq_noves_batecs2\myworkerA_vp.js" />
+    <Compile Include="zmq_noves_batecs\auxfunctions1718.js" />
+    <Compile Include="zmq_noves_batecs\mybroker_controlBatecs.js" />
+    <Compile Include="zmq_noves_batecs\myclientA_vp.js" />
+    <Compile Include="zmq_noves_batecs\myclientB_vp.js" />
+    <Compile Include="zmq_noves_batecs\myworkerA_vp.js" />
+    <Compile Include="zmq_noves_batecs\myworkerB_vp.js" />
+    <Compile Include="zmq_noves_control_clases\auxfunctions1718.js" />
+    <Compile Include="zmq_noves_control_clases\mybroker_controlClass.js" />
+    <Compile Include="zmq_noves_control_clases\myclientA_vp.js" />
+    <Compile Include="zmq_noves_control_clases\myclientB_vp.js" />
+    <Compile Include="zmq_noves_control_clases\myworkerA_vp.js" />
+    <Compile Include="zmq_noves_control_clases\myworkerB_vp.js" />
+    <Compile Include="zmq_noves_controlCarrega\auxfunctions1718.js" />
+    <Compile Include="zmq_noves_controlCarrega\mybroker_vp.js" />
+    <Compile Include="zmq_noves_controlCarrega\myclientA_vp.js" />
+    <Compile Include="zmq_noves_controlCarrega\myclientB_vp.js" />
+    <Compile Include="zmq_noves_controlCarrega\myworkerA_carrega.js" />
+    <Compile Include="zmq_noves_controlCarrega\myworkerB_carrega.js" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="tsr-lb02-val-2017.pdf" />
+    <Content Include="zmqadvanced\lanzadera.sh">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="zmq_noves_control_clases\lanzadera.sh" />
+    <Content Include="zmq_noves_controlCarrega\lanzadera.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="zmq_complete\" />
+    <Folder Include="zmqadvanced_2proxys_req\" />
+    <Folder Include="zmqadvanced_control_time\" />
+    <Folder Include="zmqadvanced_2proxys_pub-sub\" />
+    <Folder Include="zmq_noves_batecs2\" />
+    <Folder Include="pub-sub\" />
+    <Folder Include="pub-sub\pub-sub_mod\" />
+    <Folder Include="zmq_noves_batecs\" />
+    <Folder Include="zmq_noves_control_clases\" />
+    <Folder Include="zmqadvanced\" />
+    <Folder Include="zmq_noves_controlCarrega\" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+</Project>

@@ -1,0 +1,23 @@
+{
+  "WORKER44": {
+    "clients": [],
+    "peticiones": [
+      "HALOD:vBEEEE type:D"
+    ]
+  },
+  "WORKER1": {
+    "clients": [],
+    "peticiones": [
+      "HALO4:vBEEEE type:C",
+      "HALOee:vBEEEE type:C type:C"
+    ]
+  },
+  "WORKER4": {
+    "clients": [
+      "HALOA"
+    ],
+    "peticiones": [
+      "HALOA:vBEEEE type:A"
+    ]
+  }
+}
